@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	text-decoration: none;
+	font-size: 18px;
+	color: #1e0303;
+}
+body{
+	  font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    background: #f4f1f1;
+ }
+.container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+}
+.logo{
+    flex: 0 1 auto;
+    width: 10%;
+}
+.logo a{}
+.logo a img{
+	max-width: 100%;
+    box-sizing: border-box;
+}
+nav{
+    flex: 0 1 auto;
+    width: 90%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    flex: 0 1 auto;
+    list-style: none;
+    padding: 20px;
+}
+nav ul li a{
+    background: #ddaddb;
+    padding: 12px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+
+.yellow{
+	background: url(https://wallpaperaccess.com/full/1496260.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.red{
+	background: url(https://media.wired.com/photos/5c9040ee4950d24718d6da99/master/pass/shoppingcart-1066110386.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size:cover ;
+	background-attachment: fixed;
+}
+.green{
+	background: url(https://images.wallpapersden.com/image/download/shop-shopping-people_ZmZmaWiUmZqaraWkpJRmbmdlrWZnZWU.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size:cover ;
+	background-attachment: fixed;
+}
+.orange{
+	background: url(https://www.philanthropydaily.com/wp-content/uploads/2010/11/shopping.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size:cover ;
+	background-attachment: fixed;
+}
+.pink{
+	background: url(https://www.shannonspringshotel.com/wp-content/uploads/2020/06/shopping-shannon-springs-2.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size:cover ;
+	background-attachment: fixed;
+}
+
+
+section .container{
+	height: 100%;
+	padding-bottom: 120px;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+
+
+section h2{
+    background: #ec8484;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+section a{
+	float: left;
+    background:#5ec7c3;
+    margin-top: 10px;
+    padding: 12px;
+    font-weight: 400;
+    border-radius: 10px;
+
+}
